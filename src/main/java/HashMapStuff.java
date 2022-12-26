@@ -21,7 +21,8 @@ public class HashMapStuff {
 
         char[] charArray = s.toCharArray();
        for(int i = 0; i < charArray.length; i++){
-           charIndices.put(charArray[i], i);
+         charIndices.put(charArray[i], i);
+
        }
        System.out.print(charIndices);
     }
